@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Cherry+Cream+Soda);
+
 /*color schemes
 dark blue of logo: #000033
 
@@ -9,34 +9,19 @@ html, body {
 	padding:0;
 	margin:0;
 	overflow-x:hidden;
-	font-family: 'Cherry Cream Soda', cursive;
 }
 
-p {
-	font-size:20px;
-}
 
-h1 {
-	font-size:46px;
-}
-
-h2 {
-	font-size:36px;
-}
-
-#introPic, #afterPic {
+#introPic {
 	position:fixed;
 	z-index:50;
 	top:0;
 	left:0;
 	width:100%;
-	height:500px;
+	height:600px;
 	z-index:48;
 	background-image:url(images/orhsIntro.jpg);
 	background-size: cover;
-}
-#afterPic {
-	background-image:url(images/orhsSecond.jpeg);
 }
 #properties {
 	position:fixed;
@@ -92,4 +77,10 @@ h2 {
 	padding-top:5px;
 	height:85%;
 	padding-left:30px;
+}
+
+h1 {
+	margin:5px;
+	padding:0;
+	border-top:5px black solid; 	
 }
