@@ -27,18 +27,18 @@ html, body {
 	background-size: cover;
 }
 #properties {
-	position:fixed;
+	position:relative;
 	width:100%;
-	height:100%;
 	padding:0;
 	background: rgba(255,255,255,1);
 	z-index:49;
+	margin-top:500px;
 }
 .content h2 {
 	padding-left: 10px;
 }
 .content p#introP {
-	padding-left: 15px;
+	padding-left: 20px;
 }
 
 
