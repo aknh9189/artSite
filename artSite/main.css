@@ -132,3 +132,23 @@ footer a {
 	width:853px;
 	padding-bottom:10px;
 }
+
+
+/*PHOTOS PAGE*/
+#mainContent {
+	width:800px;
+	height:500px;
+	margin: 0 auto;
+	margin-top:50px;
+	padding:5px;
+
+	background-color: white;
+}
+
+/*ABOUT US PAGE*/
+#mcontent {
+	width:800px;
+	margin: 0 auto;
+	margin-top:50px;
+	padding:5px;
+}

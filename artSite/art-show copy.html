@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="main.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="scripts/simple-slideshow-styles.css">
+<title>Art Slideshow</title>
+</head>
+
+<body>
+  <div id="navBar">
+    <a href="index.html"><img src="images/or.png" alt="bobcat"/></a>
+    <ul>
+  	    <li><a  href="index.html">Home</a></li>
+    	<li><a href="about-us.html">About Us</a></li>
+        <li><a href="video-tour.html">Videos</a></li>
+        <li><a id="current" href="art-show.html">Pictures</a></li>
+	</div>
+
+  <div id="mainContent">
+    <h1>Art Slide Show</h1>
+
+    <div class="slideshow">
+       <figure>
+           <img src="slideshow/1.jpg" width="100%" />
+           <figcaption>Caption 1</figcaption>
+       </figure>
+       <figure>
+         <img src="slideshow/2.jpg" width="100%" />
+         <figcaption>Caption 2</figcaption>
+       </figure>
+       <figure>
+         <img src="slideshow/3.jpg" width="100%" />
+         <figcaption>Caption 3</figcaption>
+       </figure>
+
+       <!-- more figures here as needed -->
+
+   </div>
+
+  </div>
+  <script src="scripts/hammer.min.js"></script><!-- for swipe support on touch interfaces -->
+  <script src="scripts/better-simple-slideshow.min.js"></script>
+  <script>
+  var opts = {
+      auto : {
+          speed : 350,
+          pauseOnHover : false
+      },
+      fullScreen : false,
+      swipe : true
+  };
+  makeBSS('.slideshow', opts);
+  </script>
+
+</script>
+</body>
+</html>
