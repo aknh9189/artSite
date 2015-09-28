@@ -2,6 +2,6 @@ Steps to setting up local folder:
 change to directory, then do: 
 git init
 git remote add origin https://github.com/aknh9189/BRANCHNAME.git
-git add * (specify files)
+git add -u (specify files)
 git commit -m ‘message’
 git push -u origin gh-pages
