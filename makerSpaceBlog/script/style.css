@@ -1,0 +1,71 @@
+
+
+
+/*
+____  _
+|  _ \| |
+| |_) | | ___   __ _
+|  _ <| |/ _ \ / _` |
+| |_) | | (_) | (_| |
+|____/|_|\___/ \__, |
+               __/ |
+              |___/
+*/
+#mainBlog {
+  background-color: rgb(245, 245, 245);
+}
+header {
+  width:100%;
+  position:relative;
+  margin-bottom:5px;
+  padding:0;
+}
+header img {
+  width:100%;
+}
+header h1 {
+   position: absolute;
+   background-color:rgba(0, 0, 0, 0.8);
+   color:rgb(200, 200, 200);
+   font-size: 3em;
+   padding:10px;
+   width:500px;
+   top:150px;
+   right:0px;
+}
+.post {
+  background-color: rgb(255, 255, 255);
+  padding:15px;
+  padding-top:1px;
+  width:800px;
+  margin: 10px auto;
+  margin-bottom:20px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.post h2 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.vidPost {
+  width:90%;
+  height: 400px;
+  display:block;
+  margin: 0 auto;
+}
+.pictures ul {
+  padding-left:5px;
+}
+.pictures ul li {
+  list-style-type: none;
+  display:inline;
+}
+.pictures ul li a {
+  text-decoration: none;
+
+}
+.pictures ul li a.1:hover {
+
+}
+.pictures ul li a img {
+  width:100px;
+}
