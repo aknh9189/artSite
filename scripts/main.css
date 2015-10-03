@@ -13,6 +13,10 @@
   #contentHome {
     width:800px;
   }
+  div.arrow {
+      top:90vh;
+      animation-name: arrowChange;
+  }
 }
 body {
   margin:0;
@@ -24,7 +28,6 @@ footer {
   line-height: 100px;
   text-align: center;
   padding:10px;
-  padding-left:10%;
 
 }
 footer span {
@@ -109,16 +112,12 @@ header h1 {
 }
 div.arrow {
   position: relative;
-  top:90vh;
   margin:0 auto;
   width: 0;
 	height: 0;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	border-top: 20px solid rgb(31, 31, 31);
-}
-div.arrow{
-  animation-name: arrowChange;
   animation-duration: 2s;
   animation-delay: 5s;
   animation-iteration-count: infinite;
@@ -127,6 +126,11 @@ div.arrow{
   0% {border-top: 20px solid rgb(31, 31, 31);top:90vh;}
   50% {border-top: 20px solid rgb(99, 99, 99);top:92vh;}
   100% {border-top: 20px solid rgb(31,31,31);top:90vh;}
+}
+@keyframes arrowChange2 {
+  0% {border-top: 20px solid rgb(31, 31, 31);top:450px;}
+  50% {border-top: 20px solid rgb(99, 99, 99);top:470px;}
+  100% {border-top: 20px solid rgb(31,31,31);top:450px;}
 }
 div.rightArrow {
   position: relative;
@@ -178,5 +182,9 @@ img.circleImage  {
   }
   header.home {
     height:500px;
+  }
+  div.arrow {
+    top:450px;
+    animation-name: arrowChange2;
   }
 }
