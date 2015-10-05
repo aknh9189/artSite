@@ -33,13 +33,12 @@ header h1 {
    top:150px;
    right:0px;
 }
+#intro {
+  display:none;
+}
 .post {
   background-color: rgb(255, 255, 255);
-  padding:15px;
-  padding-top:1px;
-  width:800px;
-  margin: 10px auto;
-  margin-bottom:20px;
+
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .post h2 {
@@ -48,7 +47,7 @@ header h1 {
 }
 .vidPost {
   width:90%;
-  height: 400px;
+
   display:block;
   margin: 0 auto;
 }
@@ -68,4 +67,52 @@ header h1 {
 }
 .pictures ul li a img {
   width:100px;
+}
+
+/*
+_____                 _
+|  __ \               (_)
+| |__) |   ___   ___   _   ____   ___
+|  _  /   / _ \ / __| | | |_  /  / _ \
+| | \ \  |  __/ \__ \ | |  / /  |  __/
+|_|  \_\  \___| |___/ |_| /___|  \___|
+*/
+@media (max-width:900px) {
+  header h1 {
+    display:none;
+  }
+  #intro {
+
+    display:block;
+    margin:0;
+    padding:3px;
+    margin-top: 5px;
+    background-color:rgb(31,31,31);
+    color:rgb(200,200,200);
+    font-size: 3em;
+
+  }
+}
+@media (min-width:900px) {
+  header h1 {
+    display:block;
+  }
+}
+@media (max-width:830px) {
+  .post {
+    padding:10px;
+    margin-bottom:10px;
+  }
+}
+@media (min-width:830px) {
+  .post {
+    padding:15px;
+    padding-top:1px;
+    width:800px;
+    margin: 10px auto;
+    margin-bottom:20px;
+  }
+  .vidPost {
+    height: 400px;
+  }
 }
