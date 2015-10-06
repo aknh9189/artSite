@@ -72,7 +72,7 @@ nav ul li a {
   padding-right: 15px;
   border-bottom: 1px solid rgb(31, 31, 31);
 }
-a#currentPage {
+#currentPage {
   color: rgb(240, 240, 240);
 }
 nav ul li a:hover {
@@ -90,20 +90,26 @@ nav ul li a:hover {
 #navBar ul {
   list-style-type: none;
   font-family: Lato;
+  padding:0;
+}
+#navBar ul li {
+  width:215px;
 }
 #navBar ul li a {
+  display:inline-block;
   text-decoration: none;
   font-size: 20px;
   line-height: 59px;
   color: rgb(200, 200, 200);
-  padding-left: 15px;
-  padding-right: 15px;
+  text-align: center;
+  width:215px;
 }
-a#currentPage {
-  color: rgb(240, 240, 240);
-}
+
 #navBar ul li a:hover {
   color: rgb(240, 240, 240);
+  -webkit-box-shadow: inset 0px 0px 22px -1px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 0px 22px -1px rgba(0,0,0,1);
+  box-shadow: inset 0px 0px 22px -1px rgba(0,0,0,1);
 }
 label[for="nav-trigger"] {
   /* critical positioning styles */
@@ -128,75 +134,12 @@ label, #wholePage {
   left: 215px;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-
-
-/*
-_____                 _
-|  __ \               (_)
-| |__) |   ___   ___   _   ____   ___
-|  _  /   / _ \ / __| | | |_  /  / _ \
-| | \ \  |  __/ \__ \ | |  / /  |  __/
-|_|  \_\  \___| |___/ |_| /___|  \___|
-
-
-*/
-@media (min-width:400px) {
-  #navBar {
-    display: none;
-  }
-  label[for="nav-trigger"] {
-    display: none;
-  }
+a#currentPage {
+  color: rgb(250, 250, 250);
 }
-@media (max-width:400px) {
-  #navBar {
-    display: block;
-  }
-  label[for="nav-trigger"] {
-    display: block;
-  }
-  nav ul li {
-    display: none;
-  }
+#navBar ul li a#currentPage {
+  color: rgb(250, 250, 250);
 }
-@media (min-width: 815px) {
-  #contentHome {
-    width: 800px;
-  }
-  div.arrow {
-    top: 90vh;
-    animation-name: arrowChange;
-  }
-}
-@media (max-width: 815px) {
-  #contentHome {
-    padding: 0 10px;
-  }
-  img.circleImage {
-    position: static;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-  }
-  .section p {
-    position: relative;
-    margin: 0;
-  }
-  .section {
-    height: auto;
-    position: relative;
-    padding: 0px;
-    margin: 0;
-  }
-  header.home {
-    height: 500px;
-  }
-  div.arrow {
-    top: 450px;
-    animation-name: arrowChange2;
-  }
-}
-
 /*
 _    _
 | |  | |
@@ -299,4 +242,70 @@ img.circleImage {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+
+/*
+ _____                 _
+|  __ \               (_)
+| |__) |   ___   ___   _   ____   ___
+|  _  /   / _ \ / __| | | |_  /  / _ \
+| | \ \  |  __/ \__ \ | |  / /  |  __/
+|_|  \_\  \___| |___/ |_| /___|  \___|
+*/
+@media (min-width:400px) {
+  #navBar {
+    display: none;
+  }
+  label[for="nav-trigger"] {
+    display: none;
+  }
+}
+@media (max-width:400px) {
+  #navBar {
+    display: block;
+  }
+  label[for="nav-trigger"] {
+    display: block;
+  }
+  nav ul li {
+    display: none;
+  }
+}
+@media (min-width: 815px) {
+  #contentHome {
+    width: 800px;
+  }
+  div.arrow {
+    top: 90vh;
+    animation-name: arrowChange;
+  }
+}
+@media (max-width: 815px) {
+  #contentHome {
+    padding: 0 10px;
+  }
+  img.circleImage {
+    position: static;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .section p {
+    position: relative;
+    margin: 0;
+  }
+  .section {
+    height: auto;
+    position: relative;
+    padding: 0px;
+    margin: 0;
+  }
+  header.home {
+    height: 500px;
+  }
+  div.arrow {
+    top: 450px;
+    animation-name: arrowChange2;
+  }
 }
