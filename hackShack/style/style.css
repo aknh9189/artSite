@@ -1,0 +1,29 @@
+/* word art http://patorjk.com/software/taag/#p=display&h=0&f=Big&t=exampleWord*/
+header {
+  width: 100%;
+  position: relative;
+  top: -60px;
+  z-index: 1;
+  height:500px;
+  margin-bottom: 5px;
+  padding: 0;
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+@media (min-width:800px) {
+  #formShit {
+    width:800px;
+    margin:0 auto;
+  }
+}
+@media (max-width:800px) {
+  #formShit {
+    width:inherit;
+    margin:0;
+  }
+}
