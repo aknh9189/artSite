@@ -14,28 +14,22 @@ ____  _
 #mainBlog {
   background-color: rgb(245, 245, 245);
 }
-header {
-  width:100%;
-  position:relative;
-  margin-bottom:5px;
-  padding:0;
+header#blogPageHeader {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  height: 400px;
+  margin-bottom: 5px;
+  padding: 0;
+  background-image: url('../photos/banner.jpg');
+  background-position: center;
+  background-size: cover;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
 }
-header img {
-  width:100%;
-}
-header h1 {
-   position: absolute;
-   background-color:rgba(0, 0, 0, 0.8);
-   color:rgb(200, 200, 200);
-   font-size: 3em;
-   padding:10px;
-   width:500px;
-   top:150px;
-   right:0px;
-}
-#intro {
-  display:none;
-}
+
+
 .post {
   background-color: rgb(255, 255, 255);
 
@@ -77,34 +71,22 @@ _____                 _
 | | \ \  |  __/ \__ \ | |  / /  |  __/
 |_|  \_\  \___| |___/ |_| /___|  \___|
 */
-@media (max-width:900px) {
-  header h1 {
-    display:none;
-  }
-  #intro {
 
-    display:block;
-    margin:0;
-    padding:3px;
-    margin-top: 5px;
-    background-color:rgb(31,31,31);
-    color:rgb(200,200,200);
-    font-size: 3em;
-
-  }
-}
-@media (min-width:900px) {
-  header h1 {
-    display:block;
-  }
-}
 @media (max-width:830px) {
   .post {
     padding:10px;
     margin-bottom:10px;
   }
+  h1 {
+    width:inherit;
+    margin: 5px;
+  }
 }
 @media (min-width:830px) {
+  h1 {
+    width:800px;
+    margin:0 auto;
+  }
   .post {
     padding:15px;
     padding-top:1px;
