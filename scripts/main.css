@@ -20,16 +20,19 @@ body {
 }
 footer {
   background-color: rgb(31, 31, 31);
-  height: 200px;
+  height: 100px;
   line-height: 100px;
   text-align: center;
   padding: 10px;
+  position: relative;
 }
 footer span {
+  position: absolute;
+  top:50%;
+  line-height: normal;
+  transform: translate(-50%,-50%);
   color: rgb(230, 230, 230);
   display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
 }
 #contentHome {
   position: relative;
@@ -309,3 +312,4 @@ img.circleImage {
     animation-name: arrowChange2;
   }
 }
+/*TODO: fix the resizing footer and blog header*/

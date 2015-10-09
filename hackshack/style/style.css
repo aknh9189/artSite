@@ -2,7 +2,7 @@
 header {
   width: 100%;
   position: relative;
-  top: -60px;
+
   z-index: 1;
   height:500px;
   margin-bottom: 5px;
@@ -14,16 +14,80 @@ header {
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow: inset 0 0 10px #000000;
 }
+#content {
+  position: relative;
+  margin:0 auto;
+}
+#blogDiv {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width:400px;
+  height:200px;
+  background-image: url('../images/blog.png');
+  background-position: center;
+  background-size: cover;
+}
+#submit {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width:400px;
+  height:200px;
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+#submit a, #blogDiv a {
+  position: absolute;
+  line-height: 200px;
+  white-space: nowrap;
+  top:50%;
+  transform: translate(0, -50%);
+  display: inline-block;
+  text-align:center;
+  width:100%;
+  height:100%;
+  color:rgba(31,31,31, 0.0);
+  text-decoration: none;
+  font-size: 2em;
+}
+#submit a:hover, #blogDiv a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color:rgba(31, 31, 31, 1);
+}
 
-@media (min-width:800px) {
+@media (min-width:810px) {
   #formShit {
     width:800px;
     margin:0 auto;
   }
+  #content {
+    width:804px;
+  }
+  #submit {
+    margin-bottom: 15px;
+  }
+
 }
-@media (max-width:800px) {
+@media (max-width:810px) {
   #formShit {
     width:inherit;
     margin:0;
+  }
+  #content {
+    width:auto;
+  }
+  h1 {
+    margin: 10px;
+  }
+  p {
+    margin:10px;
+  }
+  #submit {
+    width:100%;
+  }
+  #blogDiv {
+    width:100%;
   }
 }
