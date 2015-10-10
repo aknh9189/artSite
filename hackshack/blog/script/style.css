@@ -19,7 +19,6 @@ header#blogPageHeader {
   position: relative;
   z-index: 1;
   height: 400px;
-  margin-bottom: 5px;
   padding: 0;
   background-image: url('../photos/banner.jpg');
   background-position: center;
@@ -32,7 +31,6 @@ header#blogPageHeader {
 
 .post {
   background-color: rgb(255, 255, 255);
-
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .post h2 {
@@ -62,7 +60,15 @@ header#blogPageHeader {
 .pictures ul li a img {
   width:100px;
 }
-
+#intro {
+  background-color: white;
+  padding:15px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  margin-bottom:10px;
+}
+#intro h1 {
+  margin: 0;
+}
 /*
 _____                 _
 |  __ \               (_)
@@ -77,13 +83,11 @@ _____                 _
     padding:10px;
     margin-bottom:10px;
   }
-  h1 {
-    width:inherit;
-    margin: 5px;
-  }
+
+
 }
 @media (min-width:830px) {
-  h1 {
+  #intro {
     width:800px;
     margin:0 auto;
   }
