@@ -1,0 +1,201 @@
+/* word art http://patorjk.com/software/taag/#p=display&h=0&f=Big&t=exampleWord
+            _   _
+    /\     | | | |
+   /  \    | | | |
+  / /\ \   | | | |
+ / ____ \  | | | |
+/_/    \_\ |_| |_|
+*/
+
+
+/*GOOGLE FONTS*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+
+/*Page Formatting*/
+
+body {
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Lato;
+}
+#pageWrapper {
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  left: 0px;
+  top: 0;
+  z-index: 4;
+  background-color: white;
+}
+.content {
+  position: relative;
+  margin: 0 auto;
+}
+footer {
+  background-color: rgb(31, 31, 31);
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+footer span {
+  position: relative;
+  top: 50%;
+  line-height: normal;
+  transform: translate(0, -50%);
+  color: rgb(230, 230, 230);
+  display: inline-block;
+}
+
+/*Navigation*/
+
+nav {
+  z-index: 10;
+  position: relative;
+}
+nav ul {
+  background-color: rgb(31, 31, 31);
+  width: 90%;
+  height: 60px;
+  margin: 0;
+  padding-left: 10%;
+}
+nav ul li {
+  display: inline;
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  float: left;
+  line-height: 59px;
+  color: rgb(200, 200, 200);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid rgb(31, 31, 31);
+}
+#currentPage {
+  /*Current page for navigation*/
+  color: rgb(240, 240, 240);
+}
+nav ul li a:hover {
+  color: rgb(200, 200, 200);
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+#navBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(31, 31, 31);
+}
+#navBar ul {
+  list-style-type: none;
+  font-family: Lato;
+  padding: 0;
+}
+#navBar ul li {
+  width: 215px;
+}
+#navBar ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 59px;
+  color: rgb(200, 200, 200);
+  text-align: center;
+  width: 215px;
+}
+#navBar ul li a:hover {
+  color: rgb(240, 240, 240);
+  -webkit-box-shadow: inset 0px 0px 22px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset 0px 0px 22px -1px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 0px 22px -1px rgba(0, 0, 0, 1);
+}
+label[for="nav-trigger"] {
+  /* critical positioning styles */
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  z-index: 50;
+  /* non-critical apperance styles */
+  color: rgb(200, 200, 200);
+  font-size: 20px;
+}
+.nav-trigger {
+  display: none;
+}
+label, #pageWrapper {
+  transition: left 0.2s;
+}
+.nav-trigger:checked + label {
+  left: 230px;
+}
+.nav-trigger:checked ~ #pageWrapper {
+  left: 215px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+a#currentPage {
+  color: rgb(250, 250, 250);
+}
+#navBar ul li a#currentPage {
+  color: rgb(250, 250, 250);
+}
+
+/*Header for all*/
+
+header {
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+/*End navigation*/
+
+
+/*
+ _____                 _
+|  __ \               (_)
+| |__) |   ___   ___   _   ____   ___
+|  _  /   / _ \ / __| | | |_  /  / _ \
+| | \ \  |  __/ \__ \ | |  / /  |  __/
+|_|  \_\  \___| |___/ |_| /___|  \___|
+*/
+
+@media (min-width:400px) {
+  #navBar {
+    display: none;
+  }
+  label[for="nav-trigger"] {
+    display: none;
+  }
+}
+@media (max-width:400px) {
+  #navBar {
+    display: block;
+  }
+  label[for="nav-trigger"] {
+    display: block;
+  }
+  nav ul li {
+    display: none;
+  }
+}
+@media (min-width: 830px) {
+  .content {
+    width: 800px;
+  }
+}
+@media (max-width: 830px) {
+  .content {
+    width: auto;
+  }
+}

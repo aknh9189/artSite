@@ -1,0 +1,158 @@
+/* word art http://patorjk.com/software/taag/#p=display&h=0&f=Big&t=exampleWord*/
+/*
+ _    _                  _         _____   _                      _
+| |  | |                | |       / ____| | |                    | |
+| |__| |   __ _    ___  | | __   | (___   | |__     __ _    ___  | | __
+|  __  |  / _` |  / __| | |/ /    \___ \  | '_ \   / _` |  / __| | |/ /
+| |  | | | (_| | | (__  |   <     ____) | | | | | | (_| | | (__  |   <
+|_|  |_|  \__,_|  \___| |_|\_\   |_____/  |_| |_|  \__,_|  \___| |_|\_\
+
+                                                                      */
+header#hshack {
+  background-image: url('../hackshack/images/banner.png');
+}
+
+#blogDiv { /*for fancy links on hackshack page*/
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width:400px;
+  height:200px;
+  background-image: url('../hackshack/images/blog.png');
+  background-position: center;
+  background-size: cover;
+}
+#submit { /*for fancy links on hackshack page*/
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width:400px;
+  height:200px;
+  background-image: url('../hackshack//images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+#submit a, #blogDiv a { /*for fancy links on hackshack page*/
+  position: absolute;
+  line-height: 200px;
+  white-space: nowrap;
+  top:50%;
+  transform: translate(0, -50%);
+  display: inline-block;
+  text-align:center;
+  width:100%;
+  height:100%;
+  color:rgba(31,31,31, 0.0);
+  text-decoration: none;
+  font-size: 2em;
+}
+#submit a:hover, #blogDiv a:hover { /*for fancy links on hackshack page*/
+  background-color: rgba(255, 255, 255, 0.5);
+  color:rgba(31, 31, 31, 1);
+}
+
+
+/*
+____  _
+|  _ \| |
+| |_) | | ___   __ _
+|  _ <| |/ _ \ / _` |
+| |_) | | (_) | (_| |
+|____/|_|\___/ \__, |
+               __/ |
+              |___/
+*/
+
+
+.post {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.post h2 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.vidPost {
+  width:90%;
+  display:block;
+  margin: 0 auto;
+}
+.pictures ul {
+  padding-left:5px;
+}
+.pictures ul li {
+  list-style-type: none;
+  display:inline;
+}
+.pictures ul li a {
+  text-decoration: none;
+}
+.pictures ul li a img {
+  width:100px;
+}
+#introBlog {
+  background-color: white;
+  padding:15px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  margin-bottom:10px;
+}
+#introBlog h1 {
+  margin: 0;
+}
+/*
+_____                 _
+|  __ \               (_)
+| |__) |   ___   ___   _   ____   ___
+|  _  /   / _ \ / __| | | |_  /  / _ \
+| | \ \  |  __/ \__ \ | |  / /  |  __/
+|_|  \_\  \___| |___/ |_| /___|  \___|
+*/
+
+@media (max-width:830px) {
+  .post {
+    padding:10px;
+    margin-bottom:10px;
+  }
+  #formShit {
+    width:inherit;
+    margin:0;
+  }
+  h1 {
+    margin: 10px;
+  }
+  p {
+    margin:10px;
+  }
+  #submit {
+    width:100%;
+  }
+  #blogDiv {
+    width:100%;
+  }
+}
+@media (min-width:830px) {
+  #intro {
+    width:800px;
+    margin:0 auto;
+  }
+  .post {
+    padding:15px;
+    padding-top:1px;
+    width:800px;
+    margin: 10px auto;
+    margin-bottom:20px;
+  }
+  .vidPost {
+    height: 400px;
+  }
+  #formShit {
+    width:800px;
+    margin:0 auto;
+  }
+  .content { /*for the extra width on hte hack shack page*/
+    width:804px;
+  }
+  #submit {
+    margin-bottom: 15px;
+  }
+}
