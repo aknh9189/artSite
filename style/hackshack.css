@@ -11,6 +11,9 @@
 header#hshack {
   background-image: url('../hackshack/images/banner.png');
 }
+header#hshackblog {
+  background-image: url('../hackshack/blog/photos/banner.jpg');
+}
 
 #blogDiv { /*for fancy links on hackshack page*/
   position: relative;
