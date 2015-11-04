@@ -9,5 +9,91 @@
 
 */
 header#aboutme {
-  background-image: url('../image/aboutbanner.jpg');
+  background-image: url('../image/about/aboutbanner.jpg');
+}
+.show {
+  display:block;
+  background-position: center;
+  background-size: cover;
+  height:300px;
+  width:100%;
+}
+img.center {
+  width:500px;
+  margin:0 auto;
+  display: block;
+}
+@media (max-width:830px) {
+  p {
+    padding:10px;
+  }
+  h1 {
+    padding:5px;
+  }
+  h3 {
+    padding:5px;
+  }
+}
+text {
+  fill: url(#pattern);
+  }
+@media (max-width:500px) {
+  img.center {
+    width:100%;
+  }
+
+}
+#python {
+  animation: intro 1s ease;
+  background-image: url('../image/about/python.jpg');
+
+}
+#web {
+  background-image: url('../image/about/web.jpg');
+}
+#ic{
+  background-image: url('../image/about/ic.jpg');
+}
+#other {
+  background-image: url('../image/about/asra.jpg');
+}
+@-webkit-keyframes intro {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(80px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@-moz-keyframes intro {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(80px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@-ms-keyframes intro {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(80px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes intro {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
 }
