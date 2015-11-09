@@ -7,7 +7,7 @@
 | |  | | | (_| | | (__  |   <     ____) | | | | | | (_| | | (__  |   <
 |_|  |_|  \__,_|  \___| |_|\_\   |_____/  |_| |_|  \__,_|  \___| |_|\_\
 
-                                                                      */
+																	  */
 header#hshack {
   background-image: url('../hackshack/images/banner.png');
 }
@@ -48,10 +48,12 @@ header#hshackblog {
   color:rgba(31,31,31, 0.0);
   text-decoration: none;
   font-size: 2em;
-}
-#submit a:hover, #blogDiv a:hover { /*for fancy links on hackshack page*/
   background-color: rgba(255, 255, 255, 0.5);
   color:rgba(31, 31, 31, 1);
+}
+#submit a:hover, #blogDiv a:hover { /*for fancy links on hackshack page*/
+  background-color: rgba(0,0,0,0);
+  color:rgba(31, 31, 31, 0.0);
 }
 
 
@@ -62,8 +64,8 @@ ____  _
 |  _ <| |/ _ \ / _` |
 | |_) | | (_) | (_| |
 |____/|_|\___/ \__, |
-               __/ |
-              |___/
+			   __/ |
+			  |___/
 */
 
 
@@ -113,49 +115,49 @@ _____                 _
 
 @media (max-width:830px) {
   .post {
-    padding:10px;
-    margin-bottom:10px;
+	padding:10px;
+	margin-bottom:10px;
   }
   #formShit {
-    width:inherit;
-    margin:0;
+	width:inherit;
+	margin:0;
   }
   h1 {
-    margin: 10px;
+	margin: 10px;
   }
   p {
-    margin:10px;
+	margin:10px;
   }
   #submit {
-    width:100%;
+	width:100%;
   }
   #blogDiv {
-    width:100%;
+	width:100%;
   }
 }
 @media (min-width:830px) {
   #intro {
-    width:800px;
-    margin:0 auto;
+	width:800px;
+	margin:0 auto;
   }
   .post {
-    padding:15px;
-    padding-top:1px;
-    width:800px;
-    margin: 10px auto;
-    margin-bottom:20px;
+	padding:15px;
+	padding-top:1px;
+	width:800px;
+	margin: 10px auto;
+	margin-bottom:20px;
   }
   .vidPost {
-    height: 400px;
+	height: 400px;
   }
   #formShit {
-    width:800px;
-    margin:0 auto;
+	width:800px;
+	margin:0 auto;
   }
   .content { /*for the extra width on hte hack shack page*/
-    width:804px;
+	width:804px;
   }
   #submit {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
   }
 }
