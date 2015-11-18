@@ -41,6 +41,9 @@ text {
   img.center {
     width:100%;
   }
+  .content {
+    padding:10px;
+  }
 
 }
 #python {

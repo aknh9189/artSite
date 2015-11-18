@@ -49,7 +49,12 @@ footer span {
   color: rgb(230, 230, 230);
   display: inline-block;
 }
-
+a {
+  color:rgb(31,31,31);
+}
+a:hover {
+  text-decoration: none;
+}
 /*Navigation*/
 
 nav {
