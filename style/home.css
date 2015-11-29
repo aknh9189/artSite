@@ -18,6 +18,7 @@ header#home {
   margin-bottom: 5px;
   padding: 0;
   background-image: url('../image/banner.svg');
+  animation: intro 1s ease;
 }
 header#home h1 {
   position: absolute;
@@ -97,6 +98,47 @@ img.circleImage {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@-webkit-keyframes intro {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(80px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@-moz-keyframes intro {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(80px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@-ms-keyframes intro {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(80px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes intro {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
 }
 
 /*
