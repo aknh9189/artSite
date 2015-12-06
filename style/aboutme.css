@@ -34,9 +34,7 @@ img.center {
     padding:5px;
   }
 }
-text {
-  fill: url(#pattern);
-  }
+
 @media (max-width:500px) {
   img.center {
     width:100%;
