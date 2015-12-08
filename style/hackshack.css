@@ -9,10 +9,10 @@
 
 																	  */
 header#hshack {
-  background-image: url('../hackshack/images/banner.png');
+  background-image: url('../hackshack/images/gear.svg');
 }
 header#hshackblog {
-  background-image: url('../hackshack/blog/photos/banner.jpg');
+  background-image: url('../hackshack/images/gear.svg');
 }
 
 #blogDiv { /*for fancy links on hackshack page*/
