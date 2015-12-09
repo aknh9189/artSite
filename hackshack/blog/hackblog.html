@@ -37,6 +37,21 @@
           This is a blog logging my activities at the Hack Shack at ORHS. Posts are ordered by how recent they are.
         </p>
       </div>
+<!--      Post 11-->
+      
+      <div class="post" id="11">
+        <h2>Computer Vision</h2>
+        <date>12-9-2015</date>
+        <p>It's been a while! The next step for the 3D scanner is detecting the lasers, and understanding the information they give me. After spending days, I got openCV installed and running. I was having building errors (because of a missing resourse), but ended up solving it using <a href="http://www.pyimagesearch.com/2015/06/15/install-opencv-3-0-and-python-2-7-on-osx/">this</a> guide. I spent time understanding how images work behind the scenes, and how they consist of enourmous lists of rgb values. After doing some more research on three demintanal arrays, I wrote a simple program to find the maximum red value in each line, and put a white dot there. Using this technique I can create a clear contour of the scanned image. A timelapse of a processed partial scan is below. </p>
+        <iframe class="vidPost" src="https://www.youtube.com/embed/RDsGuRl05-I?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> 
+        <p>The next step is to analyze the created contours, and understand the distances the curves represent! I'm looking forward to the challenge. I also added a "preview" feature to the small images. It only uses css, and is a bit problimatic when it comes to multipul images, tell me what you think!</p>
+        <div class="pictures">
+          <p>Pictures (hover to enlarge)</p>
+          <ul>
+            <li id='11-1'><a href="photos/post11/1.png"><img alt="Code" src="photos/post11/1.png"/></a></li>
+          </ul>
+        </div>
+      </div>
       <!-- Post 10-->
     <div class="post" id="10">
         <h2>A Hack Shack Update</h2>
@@ -47,7 +62,7 @@
         <img class="vidPost" alt="people" src="photos/post10/1.jpg"/>
       <p>The varity of projects and ideas the Hack Shack staff see daily continues to amaze us. If someone sets their mind to it, they can learn anything. No matter how intimidating coding or circutry looks, you can learn how to do it. Seeing what people do in the Hack Shack could inspire you to follow a new career path that you woudn't have even considered before. Sound interesting to you? Almost every period of the day, there are people in the Hack Shack who are happy to help you explore new ideas or help you with projects. Come on down!</p>
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li><a href="photos/post10/1.jpg"><img alt="people" src="photos/post10/1.jpg"/></a></li>
             <li><a href="photos/post10/2.jpg"><img alt="people" src="photos/post10/2.jpg"/></a></li>
@@ -62,7 +77,7 @@
         <p>After hooking everything up and re-soldering the lasers, I started on the software. I just wrote a simple script that takes a picture with each laser turned on, then rotates the plate. There are problems with the stepper motor not moving at random intervals, and to fix this I will look deeper into how the motor works. Besides that I have to decide weather or not I want to use open sourse code for the scanner or learn to write it myself. </p>
         <iframe class="vidPost" src="https://www.youtube.com/embed/eK9T2nfkhLo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> 
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li><a href="photos/post9/1.jpg"><img alt="scan" src="photos/post9/1.jpg"/></a></li>
           </ul>
@@ -75,7 +90,7 @@
         <p>With the building aspect complete, it is time to move on to software. The new camera and cable arrived today, and I should be able to test them. Here is the final design!</p>
         <img alt="scanner" src="photos/post8/1.jpg" class="vidPost" />
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li><a href="photos/post8/1.jpg"><img alt="scanner1" src="photos/post8/1.jpg"/></a></li>
             <li><a href="photos/post8/2.jpg"><img alt="scanner2" src="photos/post8/2.jpg"/></a></li>
@@ -92,7 +107,7 @@
         below is the re-designed camera mount. </p>
         <img alt="lastpart" src="photos/post7/1.png" class="vidPost" />
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li><a href="photos/post7/1.png"><img alt="lastpart" src="photos/post7/1.png"/></a></li>
           </ul>
@@ -108,7 +123,7 @@
          After this is done, it's time to move on to the software!</p>
         <img alt="lasers" src="photos/post6/1.jpg" class="vidPost" />
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li><a href="photos/post6/1.jpg"><img alt="3dscanner" src="photos/post6/1.jpg"/></a></li>
           </ul>
@@ -122,7 +137,7 @@
           done!</p>
         <iframe class="vidPost" src="https://www.youtube.com/embed/PqSXoP6btBw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li>
               <a href="photos/post5/1.jpg">
@@ -140,7 +155,7 @@
           can begin. Besdies organizing, I did a lot of work on making my website compatable with all screen sizes using CSS media queries. </p>
         <img alt="lasers" src="photos/post4/1.jpg" class="vidPost" />
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li>
               <a href="photos/post4/1.jpg">
@@ -163,7 +178,7 @@
           and has an alternate menu, compleatly css based, for smaller screens.</p>
         <img alt='photo of 3d printed thing' src='photos/post3/1.png' class="vidPost" />
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li>
               <a href="photos/post3/1.png">
@@ -186,7 +201,7 @@
           moter with the Raspberry Pi, and wait for the lasers!</p>
         <img alt='photo of 3d printed thing' src='photos/post2/1.jpg' class="vidPost" />
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li>
               <a href="photos/post2/1.jpg">
@@ -206,7 +221,7 @@
         </p>
         <iframe class="vidPost" src="https://www.youtube.com/embed/x9g3N2AqPjA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li>
               <a href="photos/post1/1.jpg" class="1">
@@ -224,7 +239,7 @@
         <p></p>
         <iframe class="vidPost"></iframe>
         <div class="pictures">
-          <p>Pictures (click to enlarge)</p>
+          <p>Pictures (hover to enlarge)</p>
           <ul>
             <li><a href=""><img alt="" src=""/></a></li>
             <li><a href=""><img alt="" src=""/></a></li>
