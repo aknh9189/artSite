@@ -1,13 +1,56 @@
 <html>
   <head>
-    <title>Glaciers</title>
+    <title>Mark Fahnestock - Home</title>
     <link href="style/style.css" rel="stylesheet" type="text/css"/>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jquery.slides.min.js"></script>
+    <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+      active: false,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 5000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: false,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    },
+        navigation: {
+          active: false,
+        // [boolean] Generates next and previous buttons.
+        // You can set to false and use your own buttons.
+        // User defined buttons must have the following:
+        // previous button: class="slidesjs-previous slidesjs-navigation"
+        // next button: class="slidesjs-next slidesjs-navigation"
+      effect: "slide"
+        // [string] Can be either "slide" or "fade".
+      },
+        pagination: {
+          active: false,
+        // [boolean] Create pagination items.
+        // You cannot use your own pagination. Sorry.
+          effect: "slide"
+        // [string] Can be either "slide" or "fade".
+    }
+  });
+});
+  </script>
   </head>
   <body>
     <nav>
       
       <ul>
-<!--        <li><img src="image/glacier.svg" alt="logo"/></li>-->
         <li><a href="#">Home</a></li>
         <li><a href="aboutme.html">About Me</a></li>
       </ul>
@@ -15,7 +58,24 @@
     <header></header>
     <div id="main">
       
-      <h1>Glaciers</h1>
+      <h1>My Work</h1>
+      <div id="slides">
+        <a href="http://unhmagazine.unh.edu/w07/thin_ice.html"><img src="image/unh.png"></a>
+        <img src="http://placehold.it/940x528">
+      </div>
+      <p></p>
+      
     </div>
+    <footer>
+      <div>
+      <p>Pages</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+      </ul>
+      </div>
+      <p>Copyright Mark Fahnestock 2015</p>
+    
+    </footer>
   </body>
 </html>

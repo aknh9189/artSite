@@ -7,11 +7,12 @@ html, body {
 }
 #main {
   width:900px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 @media (min-height:500px){
-  nav,ul {
+  nav, nav ul {
     position: fixed;
+    z-index: 500;
     top:0;
     margin-top: 0;
   }
@@ -56,4 +57,42 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   height:600px;
+}
+footer {
+  width:100vw;
+  height:200px;
+  background: url(../image/footer.svg) no-repeat center;
+  background-size: cover;
+}
+footer div {
+  margin-left:30px;
+  padding-top: 30px;
+}
+footer div p {
+  margin-bottom: 0;
+  width:inherit;
+  position: inherit;
+}
+footer div ul {
+  margin:0;
+  padding:5px;
+}
+footer div ul li {
+  list-style-type: none;
+  padding: 0;
+}
+footer div ul li a {
+  color:black;
+}
+footer p {
+  position: relative;
+  bottom:-40px;
+  left:41vw;
+}
+#me {
+  position:relative;
+  left:50vw;
+  top:-50px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
 }

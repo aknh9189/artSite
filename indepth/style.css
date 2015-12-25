@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+English:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html, body {
+  margin:0;
+  padding:0;
+}
+header {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  background-image: url(images/sleep.svg);
+  background-position:center;
+  background-size: cover;
+  height:100vh;
+}
+header h1 {
+  position:absolute;
+  left:10%;
+  font-family: Montserrat;
+  font-size: 60px;
+}
+header h3 {
+  position: absolute;
+  left:15%;
+  top:105;
+  font-family: 'IM Fell English', serif;
+}
+#z1 {
+  background-color: white;
+  position: absolute;
+  top:48vh;
+  left:20vw;
+  width:17vw;
+  height:25vh;
+  animation: zs infinite 4s;
+  animation-delay: 0s;
+}
+#z2 {
+  background-color: white;
+  position: absolute;
+  top:41vh;
+  left:38vw;
+  width:9vw;
+  height:20vh;
+  animation: zs infinite 4s;
+  animation-delay: 0.75s;
+}
+#z3 {
+  background-color: white;
+  position: absolute;
+  top:30vh;
+  left:47vw;
+  width:10vw;
+  height:19vh;
+  animation: zs infinite 4s;
+  animation-delay: 1.5s;
+}
+
+@keyframes zs {
+  0% {opacity: 1;}
+  25% {opacity: 0;}
+  50% {opacity: 1;}
+}
+#content {
+  width:100vw;
+  background-color: white;
+  margin-top:100vh;
+}
+p {
+  font-family: serif;
+  font-size: 1.5em;
+  text-indent: 30px;
+  width:800px;
+  line-height: 1.5;
+  margin:25px auto;
+}
+.scene {
+  font-style: italic;
+  text-indent: 30px;
+  width:700px;
+  margin:0 auto;
+  margin-bottom: 50px;
+}
+.scene:last-child {
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+#content h1 {
+  width:800px;
+  margin: 20px auto;
+  padding-top:25px;
+}
+img {
+  width:100vw;
+  height: 300px;
+}
