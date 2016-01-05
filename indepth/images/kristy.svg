@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1280 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <rect x="0" y="0" width="274.72" height="300" style="fill:rgb(205,205,205);"/>
+    <g transform="matrix(1,0,0,1,1005.28,0)">
+        <rect x="0" y="0" width="274.72" height="300" style="fill:rgb(205,205,205);"/>
+    </g>
+    <g transform="matrix(1,0,0,1.80153,12.6119,-138.119)">
+        <rect x="262.109" y="0" width="730.559" height="300" style="fill:rgb(235,235,235);stroke-width:24.02px;stroke:rgb(171,171,171);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-91.4913,-49.1967)">
+        <text x="488.23px" y="91.709px" style="font-family:Chalkboard;font-size:30px;fill:black;">Fn<tspan x="519.025px 533.479px 547.202px " y="91.709px 91.709px 91.709px ">et </tspan>= Ft - Fg</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-90.4637,-16.6068)">
+        <text x="488.23px" y="91.709px" style="font-family:Chalkboard;font-size:30px;fill:black;">ma = Ft - mg</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-68.6716,100.743)">
+        <text x="488.23px" y="91.709px" style="font-family:Chalkboard;font-size:30px;fill:black;">ma = m * sqrt(<tspan x="687.556px 709.169px 721.136px 730.583px " y="91.709px 91.709px 91.709px 91.709px ">wr) </tspan>- mg</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-47.7876,151.168)">
+        <text x="488.23px" y="91.709px" style="font-family:Chalkboard;font-size:30px;fill:black;">a = sqrt(<tspan x="605.445px 627.059px 639.025px 648.473px " y="91.709px 91.709px 91.709px 91.709px ">wr) </tspan>- g</text>
+    </g>
+    <g transform="matrix(1,0,0,1,219.484,180.441)">
+        <text x="488.23px" y="91.709px" style="font-family:Chalkboard;font-size:30px;fill:black;">a = 3<tspan x="557.843px 564.937px 582.009px " y="91.709px 91.709px 91.709px ">.9 </tspan>m/<tspan x="629.545px 642.473px " y="91.709px 91.709px ">s^</tspan>2</text>
+    </g>
+    <path d="M448.141,251.215C451.301,267.487 511.674,284.342 561.164,286.433C614.362,288.681 668.246,275.868 673.277,275.868" style="fill:none;stroke-width:3px;stroke:rgb(13,13,13);"/>
+    <g transform="matrix(1,0,0,1,-3.24436,-0.236401)">
+        <path d="M664.767,268.456C665.833,268.456 676.84,275.73 677.167,276.878C677.187,276.948 667.56,288.653 667.078,288.653" style="fill:none;stroke-width:3px;stroke:rgb(13,13,13);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,207.627,-34.7101)">
+        <text x="488.23px" y="91.709px" style="font-family:Chalkboard;font-size:30px;fill:black;">Ft = m * sqrt(<tspan x="678.108px 699.722px 711.688px " y="91.709px 91.709px 91.709px ">wr)</tspan></text>
+    </g>
+    <path d="M717.975,68.878C686.228,89.462 652.919,122.788 608.022,136.953C577.331,146.635 526.668,146.778 498.548,126.406C481.52,114.071 482.795,106.022 480.412,93.295" style="fill:none;stroke-width:3px;stroke:rgb(13,13,13);"/>
+    <path d="M494.467,103.74C492.194,102.548 490.569,100.78 488.811,98.942C487.429,97.497 485.993,96.201 484.457,94.914C483.704,94.283 482.87,93.682 482.121,93.033C481.091,92.14 480.325,90.548 479.183,92.123C478.982,92.401 478.795,92.732 478.637,93.033C478.448,93.391 478.319,93.657 478.182,94.034C477.937,94.707 477.739,95.389 477.643,96.1C477.479,97.317 477.268,98.477 476.999,99.676C476.728,100.877 476.441,101.932 475.907,103.043C475.758,103.352 475.554,103.68 475.182,103.68" style="fill:none;stroke-width:3px;stroke:rgb(13,13,13);"/>
+</svg>
