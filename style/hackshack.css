@@ -81,10 +81,17 @@ ____  _
   margin-top: 10px;
   font-size: 25px;
 }
-.vidPost {
+/*FIX THIS LATER*/
+ iframe .vidPost {
   width:90%;
   display:block;
   margin: 0 auto;
+}
+img .vidPost {
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  
 }
 .pictures ul {
   padding-left:5px;
