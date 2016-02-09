@@ -23,15 +23,17 @@ header#home {
 
 header#home div#person {
   padding:20px;
-  background-color: rgba(255,255,255,1);
+/*  background-color: rgba(255,255,255,1);*/
   text-align: center;
   position: absolute;
-  top:100%;
+  width:100%;
+  top:50%;
   left:50%;
   transform: translate(-50%,-50%);
 }
 
 div.arrow {
+  top:90%;
   position: relative;
   margin: 0 auto;
   width: 0;
@@ -40,7 +42,8 @@ div.arrow {
   border-right: 20px solid transparent;
   border-top: 20px solid rgb(31, 31, 31);
   animation-duration: 2s;
-  animation-delay: 5s;
+}
+/*  animation-delay: 5s;
   animation-iteration-count: infinite;
 }
 @keyframes arrowChange {
@@ -57,20 +60,7 @@ div.arrow {
     top: 90vh;
   }
 }
-@keyframes arrowChange2 {
-  0% {
-    border-top: 20px solid rgb(31, 31, 31);
-    top: 450px;
-  }
-  50% {
-    border-top: 20px solid rgb(99, 99, 99);
-    top: 470px;
-  }
-  100% {
-    border-top: 20px solid rgb(31, 31, 31);
-    top: 450px;
-  }
-}
+*/
 div.rightArrow {
   position: relative;
   left: 0;
@@ -148,13 +138,9 @@ img.circleImage {
 |  _  /   / _ \ / __| | | |_  /  / _ \
 | | \ \  |  __/ \__ \ | |  / /  |  __/
 |_|  \_\  \___| |___/ |_| /___|  \___|
-*/
 
 @media (min-width: 830px) {
-  div.arrow {
-    top: 90vh;
-    animation-name: arrowChange;
-  }
+
 }
 @media (max-width: 830px) {
   #contentHome {
@@ -179,8 +165,5 @@ img.circleImage {
   header.home {
     height: 500px;
   }
-  div.arrow {
-    top: 450px;
-    animation-name: arrowChange2;
-  }
+
 }
