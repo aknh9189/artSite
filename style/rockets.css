@@ -1,0 +1,41 @@
+/*
+  _____                   _             _         
+ |  __ \                 | |           | |        
+ | |__) |   ___     ___  | | __   ___  | |_   ___ 
+ |  _  /   / _ \   / __| | |/ /  / _ \ | __| / __|
+ | | \ \  | (_) | | (__  |   <  |  __/ | |_  \__ \
+ |_|  \_\  \___/   \___| |_|\_\  \___|  \__| |___/
+*/
+
+header {
+  height:70vh;
+  background-image: url(../image/rockets.svg);
+}
+#launcher video{
+  display: block;
+  width:50%;
+  margin:0 auto;
+}
+div img {
+  width:100%;
+}
+.images img {
+  float:left;
+  margin:5;
+  width:25%;
+}
+.images video {
+  float:left;
+  width:25%;
+}
+
+p {
+  padding-top:10px;
+}
+#datalogger {
+  display: block;
+}
+#datalogger img {
+  float:right;
+  height:100%;
+}
