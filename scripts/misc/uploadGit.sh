@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /Users/aknh9189/Desktop/website
+cd ../..
 echo -n 'enter commit message: '
 read message
 git add -u
